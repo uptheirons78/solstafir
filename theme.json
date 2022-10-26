@@ -1,0 +1,64 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        {"slug": "s-neutral-50", "color": "#fafafa", "name": "Sòlstafir Neutral 50"},
+        {"slug": "s-neutral-100", "color": "#f5f5f5", "name": "Sòlstafir Neutral 100"},
+        {"slug": "s-neutral-200", "color": "#e5e5e5", "name": "Sòlstafir Neutral 200"},
+        {"slug": "s-neutral-300", "color": "#d4d4d4", "name": "Sòlstafir Neutral 300"},
+        {"slug": "s-neutral-400", "color": "#a3a3a3", "name": "Sòlstafir Neutral 400"},
+        {"slug": "s-neutral-500", "color": "#737373", "name": "Sòlstafir Neutral 500"},
+        {"slug": "s-neutral-600", "color": "#525252", "name": "Sòlstafir Neutral 600"},
+        {"slug": "s-neutral-700", "color": "#404040", "name": "Sòlstafir Neutral 700"},
+        {"slug": "s-neutral-800", "color": "#262626", "name": "Sòlstafir Neutral 800"},
+        {"slug": "s-neutral-900", "color": "#171717", "name": "Sòlstafir Neutral 900"},
+        {"slug": "s-sky-50", "color": "#f0f9ff", "name": "Sòlstafir Sky 50"},
+        {"slug": "s-sky-100", "color": "#e0f2fe", "name": "Sòlstafir Sky 100"},
+        {"slug": "s-sky-200", "color": "#bae6fd", "name": "Sòlstafir Sky 200"},
+        {"slug": "s-sky-300", "color": "#7dd3fc", "name": "Sòlstafir Sky 300"},
+        {"slug": "s-sky-400", "color": "#38bdf8", "name": "Sòlstafir Sky 400"},
+        {"slug": "s-sky-500", "color": "#0ea5e9", "name": "Sòlstafir Sky 500"},
+        {"slug": "s-sky-600", "color": "#0284c7", "name": "Sòlstafir Sky 600"},
+        {"slug": "s-sky-700", "color": "#0369a1", "name": "Sòlstafir Sky 700"},
+        {"slug": "s-sky-800", "color": "#075985", "name": "Sòlstafir Sky 800"},
+        {"slug": "s-sky-900", "color": "#0c4a6e", "name": "Sòlstafir Sky 900"}
+      ],
+      "duotone": [
+        {"slug": "s-dark-brieze", "colors": ["#171717","#0c4a6e"], "name": "Sòlstafir Dark Brieze"}
+      ],
+      "gradients": [
+        {
+          "slug": "s-otta",
+          "name": "Sòlstafir Otta",
+          "gradient": "linear-gradient(#bae6fd, #075985)"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "text": "var(--wp--preset--color--s-neutral-700)"
+    },
+    "elements": {
+			"link": {
+        "typography": {
+					"textDecoration": "none"
+				},
+        "color": {
+          "text": "var(--wp--preset--color--s-sky-700)"
+        }
+			}
+		},
+    "blocks": {
+      "core/quote": {
+        "border": {
+          "width": "2px",
+          "color": "var(--wp--preset--color--s-sky-700)"
+        }
+      }
+    }
+  }
+}
